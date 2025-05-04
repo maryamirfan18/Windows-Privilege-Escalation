@@ -37,16 +37,16 @@ This will:
 * Copy the malicious payload `Exploit.exe` to the shared directory.
 
 #### Scripts
--setup_apache.sh:
-*Sets up Apache.
-*Creates a shared directory for the payload.
-*Copies the malicious payload to the shared directory.
-*Outputs the shareable URL.
+##### setup_apache.sh:<br>
+*Sets up Apache.<br>
+*Creates a shared directory for the payload.<br>
+*Copies the malicious payload to the shared directory.<br>
+*Outputs the shareable URL.<br>
 
--metasploit_commands.sh:
-*Automates starting Metasploit.
-*Sets up a handler to listen for incoming sessions.
-*Begins exploitation and lists active sessions.
+##### metasploit_commands.sh:<br>
+*Automates starting Metasploit.<br>
+*Sets up a handler to listen for incoming sessions.<br>
+*Begins exploitation and lists active sessions.<br>
 
 ### 2. Create the Exploit File
 
