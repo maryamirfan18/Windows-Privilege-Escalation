@@ -142,10 +142,12 @@ run post/windows/gather/smart_hashdump
 ## Repository Structure
 
 ```plaintext
-.
-├── setup_apache.sh      # Script to set up Apache and share malicious payload.
-├── metasploit_commands.sh  # Script containing Metasploit commands.
-├── README.md            # Detailed lab documentation.
+privilege-escalation/
+├── scripts/
+│   ├── setup_apache.sh      # Automates Apache setup and payload sharing.
+│   └── metasploit_commands.sh  # Automates Metasploit setup and exploitation.
+├── README.md                # Detailed documentation for the lab.
+
 ```
 
 ---
