@@ -1,4 +1,4 @@
-# Privilege Escalation
+# Windows Privilege Escalation
 
 This repository demonstrates a hands-on lab for privilege escalation on a vulnerable Windows machine using a Kali Linux attacker machine. The lab showcases how to exploit vulnerabilities to gain higher privileges and includes detailed steps for exploitation and escalation.
 
@@ -142,7 +142,7 @@ run post/windows/gather/smart_hashdump
 ## Repository Structure
 
 ```plaintext
-privilege-escalation/
+Windows-privilege-escalation/
 ├── scripts/
 │   ├── setup_apache.sh      # Automates Apache setup and payload sharing.
 │   └── metasploit_commands.sh  # Automates Metasploit setup and exploitation.
