@@ -136,8 +136,9 @@ To escalate privileges:
 
 ---
 ### 8. Dump Password Hashes
+ ```bash
 run post/windows/gather/smart_hashdump
-
+```
 ## Repository Structure
 
 ```plaintext
