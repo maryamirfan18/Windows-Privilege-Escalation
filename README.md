@@ -36,6 +36,18 @@ This will:
 * Configure the Apache server to host a directory for sharing files.
 * Copy the malicious payload `Exploit.exe` to the shared directory.
 
+#### Scripts
+-setup_apache.sh:
+*Sets up Apache.
+*Creates a shared directory for the payload.
+*Copies the malicious payload to the shared directory.
+*Outputs the shareable URL.
+
+-metasploit_commands.sh:
+*Automates starting Metasploit.
+*Sets up a handler to listen for incoming sessions.
+*Begins exploitation and lists active sessions.
+
 ### 2. Create the Exploit File
 
 Generate the malicious payload using `msfvenom`:
